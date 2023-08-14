@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+body{
+    background-color:black;
+    background-image: url(img/body.gif);
+    background-size:55%;
+    background-repeat: no-repeat;   
+}
+ 
+nav{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         
+
+}
+
+nav img{
+    height: 100px;
+    width: 200px;
+    background-blend-mode: lighten;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 2px;
+    margin-right: 58px;   
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    list-style: circle;
+    cursor: pointer;
+
+}
+
+.down{
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+
+.down input{
+    width: 90%;
+    margin-left: 40px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 148
+}
+
+.icons{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+.songContainer{
+color: white;
+    height: 480px;
+    width: 28%;
+    margin-left: 60%;
+    margin-top: -180px;
+    border-radius: 15px;
+    font-size: 25px;
+   border: 2px solid rgb(254, 253, 255);
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+    
+
+}
+
+.head{
+    margin: 75px 85px ;
+    font-size: 33px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.song img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 20px auto;
+   color: white;
+   font-family: "Poppins", sans-serif
+ } 
+
+
+ .songlist i {
+    
+    height: 0.2px;
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+
+.song img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 30px auto;
+   color: white;
+   font-family: "Poppins", sans-serif;
+ } 
+
+
+ .song  span{
+    cursor: pointer;
+    
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+
+.song img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 30px auto;
+   color: white;
+   font-family: "Poppins", sans-serif
+ } 
+
+
+ .song  span{
+    cursor: pointer;
+    
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+.song1 img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song1{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 30px auto;
+   color: white;
+   font-family: "Poppins", sans-serif
+ } 
+
+
+ .song1  span{
+    cursor: pointer;
+    
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+.song2 img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song2{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 30px auto;
+   color: white;
+   font-family: "Poppins", sans-serif
+ } 
+
+
+ .song2  span{
+    cursor: pointer;
+    
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+.song3 img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song3{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 30px auto;
+   color: white;
+   font-family: "Poppins", sans-serif
+ } 
+
+
+ .song3  span{
+    cursor: pointer;
+    
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+.song4 img{
+    border-radius: 25px;
+    height: 43px;
+    margin-left: 15px;
+}
+
+ .song4{
+    border: 5px solid whitesmoke;
+    border-radius: 15px ;
+    display: flex;
+    justify-content: space-between;
+   margin: 30px auto;
+   color: white;
+   font-family: "Poppins", sans-serif;
+   margin-bottom: 15px;
+ } 
+
+ .song4  span{
+    cursor: pointer;
+    
+ }
+
+ .material-symbols-outlined{
+   
+    margin-top:7px;
+ }
+
+
+
